@@ -12,7 +12,7 @@ def homepage(url):
     
     data = [] 
     for x in scrap.find('div', class_="rightCol").find_all('a'):
-        sleep(0.2)
+#        sleep(0.2)
         data.append(x.text)
         print(x.text)
         
